@@ -1,0 +1,17 @@
+CREATE USER warehouse IDENTIFIED BY warehouse123;
+
+GRANT CONNECT, RESOURCE TO warehouse;
+
+ALTER USER warehouse
+QUOTA UNLIMITED ON USERS;
+
+show CON_NAME
+
+
+
+
+
+
+
+
+
